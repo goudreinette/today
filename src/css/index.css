@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  font-family: Fira Code;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 25px;
+  font-family: Cantarell;
+}
+
+#root {
+  border: 1px solid lightgrey;
+  height: 100%;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(30, 143, 110);
+}

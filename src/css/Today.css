@@ -1,0 +1,22 @@
+div {
+  display: flex;
+}
+
+#day {
+  flex-shrink: 0;
+  height: 100%;
+  max-width: 400px;
+  background-color: white;
+  align-self: flex-end;
+  margin-left: auto;
+  padding: 20px;
+}
+
+.date {
+  padding-right: 50px;
+  margin: 10px 30px;
+  width: 80%;
+  line-height: 1.6em;
+  opacity: 0.85;
+  border-bottom: 1px solid lightgrey;
+}
