@@ -6,6 +6,7 @@ import Auth from './components/Auth'
 import Layout from './components/Layout'
 import Today from './components/Today'
 import './css/index.css'
+import './css/fonts.css'
 
 const routes = (
     <Route component={App}>

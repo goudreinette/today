@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from './Nav'
+import Day from './Day'
 import '../css/Layout.css'
 
 export default class Layout extends React.Component
@@ -17,6 +18,7 @@ export default class Layout extends React.Component
         <Nav />
         <main>
           {this.props.children}
+          <Day {...this.props.selectedDay} />
         </main>
       </div>
     )

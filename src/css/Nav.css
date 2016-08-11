@@ -19,6 +19,10 @@ nav a {
   border-left: 2px solid white;
 }
 
+nav a:hover {
+  border-left: 2px solid rgb(231, 231, 231);
+}
+
 nav a.active {
   border-left: 2px solid rgb(30, 143, 110);
 }
@@ -31,15 +35,15 @@ a i {
 }
 
 #today i {
-  background-image: url('/static/today.svg');
+  background-image: url('/static/icons/today.svg');
   opacity: 0.9;
 }
 
 #entries i {
-  background-image: url('/static/entries.svg');
+  background-image: url('/static/icons/entries.svg');
 }
 
 #stats i {
-  background-image: url('/static/statistics.svg');
+  background-image: url('/static/icons/statistics.svg');
   opacity: 0.8;
 }
