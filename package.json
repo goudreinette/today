@@ -2,8 +2,22 @@
   "name": "today",
   "version": "0.0.1",
   "private": true,
+  "ava": {
+    "files": "**/test.js",
+    "require": ["babel-register"],
+    "babel": "inherit"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
   "devDependencies": {
-    "react-scripts": "0.2.1"
+    "ava": "^0.16.0",
+    "babel-preset-react": "^6.11.1",
+    "react-scripts": "0.2.1",
+    "teaspoon": "^6.4.1"
   },
   "dependencies": {
     "dateformat": "^1.0.12",

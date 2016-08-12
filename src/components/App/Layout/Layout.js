@@ -1,7 +1,6 @@
 import React from 'react'
-import Nav from './Nav'
-import Day from './Day'
-import '../css/Layout.css'
+import Nav from './Nav/Nav'
+import Day from './Day/Day'
 
 export default class Layout extends React.Component
 {

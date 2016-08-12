@@ -1,5 +1,4 @@
 import React from 'react'
-import '../css/Auth.css'
 
 export default function Auth (props)
 {

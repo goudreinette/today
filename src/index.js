@@ -1,12 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import {Router, Route, browserHistory} from 'react-router'
-import App from './components/App'
-import Auth from './components/Auth'
-import Layout from './components/Layout'
-import Today from './components/Today'
-import './css/index.css'
-import './css/fonts.css'
+import App from './components/App/App'
+import Auth from './components/App/Auth/Auth'
+import Layout from './components/App/Layout/Layout'
+import Today from './components/App/Layout/Today/Today'
+
 
 const routes = (
     <Route component={App}>

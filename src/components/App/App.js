@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Layout from './Layout'
+import Layout from './Layout/Layout'
 
 
 export default class App extends Component
@@ -17,7 +17,9 @@ export default class App extends Component
 
     return (
       <div className="app">
-        <Layout selectedDay={selectedDay} view={view}/>
+
+        {React.cloneElement(this.props.children, {selectedDay, view})}
+        
       </div>
     )
   }
